@@ -6,8 +6,8 @@ Decidí no hacer una interfaz grafica ni nada demasiado excesivo, porque no lo c
 
 Para ejecutar el código:
 
-- posicionado en la carpeta raíz, utiliar el comando `node ./src/prueba-tecnica.js`.
-- (codesandox.io)[https://codesandbox.io/p/sandbox/prueba-tecnica-8twjkc]
+- posicionado en la carpeta raíz, utiliar el comando `node ./src/prueba-tecnica.ts`.
+- codesandox.io: https://codesandbox.io/p/sandbox/prueba-tecnica-8twjkc
 
 ## Ejercicio 1
 
