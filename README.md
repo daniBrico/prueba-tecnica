@@ -4,7 +4,10 @@ El lenguaje utilizado fue JavaScript con Node (v22.18).
 
 Decidí no hacer una interfaz grafica ni nada demasiado excesivo, porque no lo creí necesario, solo agregar la lógica para la resolución del problema.
 
-Para ejecutar el código, posicionado en la carpeta raíz, utiliar el código `node ./src/prueba-tecnica.js`.
+Para ejecutar el código:
+
+- posicionado en la carpeta raíz, utiliar el comando `node ./src/prueba-tecnica.js`.
+- (codesandox.io)[https://codesandbox.io/p/sandbox/prueba-tecnica-8twjkc]
 
 ## Ejercicio 1
 
