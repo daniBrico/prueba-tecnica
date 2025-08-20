@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prueba técnica</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="main-div">
+        <h1>Prueba técnica</h1>
+        <form action="" id="form">
+          <label for="arrayNumbers"
+            >Ingrese un conjunto de valores para el arreglo separado por
+            comas:</label
+          >
+          <input
+            type="text"
+            name="arrayNumbers"
+            id="arrayNumbers"
+            placeholder="1,2,3,4,5"
+            required
+          />
+          <label for="requiredSum">Ingrese la suma requerida: </label>
+          <input
+            type="number"
+            name="requiredSum"
+            id="requiredSum"
+            placeholder="6"
+            required
+          />
+          <button type="submit">Calcular</button>
+        </form>
+        <div>
+          <span>Respuesta:</span>
+          <span id="result"></span>
+        </div>
+      </div>
+    </main>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

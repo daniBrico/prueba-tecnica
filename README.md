@@ -1,13 +1,11 @@
 # Prueba técnica
 
-El lenguaje utilizado fue TypeScript con Node (v22.18).
-
-El ejercicio 1 está hecho en código. El mismo
+El lenguaje utilizado fue JavaScript con Node (v22.18), con el IDE Visual Studio Code (plugin Live Server).
 
 Para ejecutar el código:
 
-- posicionado en la carpeta raíz, utiliar el comando `node ./src/prueba-tecnica.ts`.
-- Si desea visualizarlo en codesandox.io: https://codesandbox.io/p/sandbox/prueba-tecnica-8twjkc
+- Pueden clonar el repositorio, abrir VS-Code y ejecutar el comando Open with Live Server.
+- O directamente desde, codesandox.io: https://codesandbox.io/p/sandbox/prueba-tecnica-8twjkc
 
 ## Ejercicio 1
 
@@ -16,7 +14,7 @@ Como el objetivo principal de este punto es realizar el desarrollo en el menor t
 Elegí esta implementación porque prioriza la rapidez de desarrollo y mantenibilidad, aunque tenga "peor" rendimiento
 en memoria/CPU, ya que el algoritmo es simplemente fuerza bruta.
 
-Este código tiene una complejidad computacional de O(n^2). No escalaría muy bien frente arreglo excesivamente demasiado grande.
+Este código tiene una complejidad computacional de O(n^2). No escalaría muy bien frente a un arreglo excesivamente grande.
 
 Asumo para esta estrategía que la entrada no superará una cantidad exagerada de elementos, ya que este código podría ejecutarse tanto del lado del servidor como del cliente.
 
